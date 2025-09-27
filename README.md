@@ -1,1 +1,122 @@
-# CART
+# CART: Combined AUTOSAR AP and ROS 2 Tracing Framework
+
+
+
+This repository contains scripts and tooling to extract AUTOSAR tracepoints, convert ROS2 tracing data, generate C tracepoint code, build and run LTTng tracing, and collect outputs for analysis.
+
+This tool was released by Saitama University in collaboration with Astemo,Ltd.
+
+
+## Prerequisites
+
+- ROS 2 Humble Hawksbill
+- AUTOSAR Adaptive Platform
+
+## Contents
+
+- `input/` - Input log files used by the workflow (e.g. `client.txt`, `server.txt`, `ROS2_trace_data.txt`).
+- `output/` - Generated outputs such as CSVs, tracepoint code fragments, timestamps, and other artifacts.
+- `Python/` - Core Python scripts. See details below.
+- `C++/` - C/C++ sources and build scripts, templates to emit LTTng tracepoints, and helper binaries.
+- `trace_output/` - Local LTTng trace output produced when running the project.
+- `ROS2_tracedata/` - Captured ROS2 trace repository structure (metadata, channels, indexes).
+- Top-level shell scripts: `all.sh`, `aralog_conversion.sh`, `ROS2_conversion.sh`, `clean.sh`.
+- `LICENSE` - Apache-2.0 license.
+- `.gitignore`
+
+## Quickstart
+
+1. Prepare inputs in `input/`:
+	 - `client.txt` and/or `server.txt` (AUTOSAR logs)
+	 - `ROS2_trace_data.txt` (ROS2 trace text produced with `babeltrace2`)
+     - `ROS2_tracedata/` (`CTF formatROS2_tracedata)
+
+2. Run full workflow (example):
+
+```bash
+./all.sh
+```
+
+This runs conversion, code generation, and can build C++ and run tracing if available.
+
+Alternatively run only the AUTOSAR conversion step:
+
+```bash
+./aralog_conversion.sh
+```
+
+Or run only ROS2 conversion:
+
+```bash
+./ROS2_conversion.sh
+```
+
+## Python scripts
+
+- `extract_autosar_tracepoints_client.py` / `extract_autosar_tracepoints_server.py`:
+	Extract AUTOSAR tracepoints and timestamps from client/server logs and produce CSV files in `output/`.
+
+- `autosar_tracepoints_client_to_tracepoint_code.py` / `autosar_tracepoints_server_to_tracepoint_code.py`:
+	Convert AUTOSAR CSVs into tracepoint macro payloads and code fragments.
+
+- `make_init_tracepoints_client.py` / `make_init_tracepoints_server.py`:
+	Generate initialization tracepoint macros used during program startup.
+
+- `make_write_lttng.py`:
+	Insert generated tracepoint macros into a C template to produce `write_lttng.c`.
+
+- `make_ROS2_tracepoints.py`:
+	Generate tracepoint macros from ROS2 trace text.
+
+- `extract_ROS2_timestamps.py`:
+	Extract timestamps from ROS2 tracing text. Uses `get_trace_datetime.py` to read trace metadata and prepend the trace date.
+
+- `get_trace_datetime.py`:
+	Reads an LTTng/ros2_tracing `metadata` file and parses `trace_creation_datetime`.
+
+- `wrap_tracepoint.py`:
+	Helper to insert `j++` or `set_fake_timestamp` calls automatically into generated C code.
+
+## C++ folder
+
+Contains:
+- `template.c` - C template used by `make_write_lttng.py`.
+- `write_lttng.c` - Generated file to emit LTTng tracepoints.
+- `write_trace_data.sh` - Script to run the binary and collect traces.
+- `build.sh` - Build script for the C++ components.
+- Shared objects (may be generated during build): `ros2_tracepoints.so`, `ros2_caret_tracepoints.so`, `fake_clock.so`.
+
+## Typical workflow
+
+1. Produce ROS2 trace text from the captured trace folder using `babeltrace2`:
+
+```bash
+babeltrace2 ROS2_tracedata/ust/uid/1000/64-bit > input/ROS2_trace_data.txt
+```
+
+2. Convert and extract timestamps / tracepoint code:
+
+```bash
+python3 Python/extract_ROS2_timestamps.py input/ROS2_trace_data.txt output/output_ros2_timestamps.txt
+python3 Python/make_ROS2_tracepoints.py input/ROS2_trace_data.txt tracepoint_code/output_ROS2_tracepoints_injected.c
+```
+
+3. If AUTOSAR logs are available, run `./aralog_conversion.sh` to generate CSVs and code.
+
+## Notes and caveats
+
+- Many generated large outputs are intentionally excluded via `.gitignore` (e.g. `output/*`, `trace_output/*`, compiled `.so` files, Python caches).
+- Some files are tracked in the repository and are used for distribution, examples or core scripts (see `README_CART.md` for details).
+- If you need to remove tracked large files from the repository history, use `git filter-repo` or BFG.
+
+
+## Publications & Presentations
+
+
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+
+---
+

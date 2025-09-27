@@ -1,0 +1,243 @@
+[1755444913045623][MYSV vcom][INFO] [43538: Runtime]MapInstanceSpecifierToInstanceId:89: Mapping instance specifier my_server_exe/RootSwcProtoType/MyServer_PPort to instance identifier SomeIp:1667:1:1404')
+[1755444913045861][MYSV vcom][INFO] [43538: ThreadPool]Initialize:96: Thread-Pool vComRDef, Thread-Pool ID: 0, number of worker threads: 1, maximum tasks: 1024, BswThreadConfiguration: vComDefault
+[1755444913046247][MYSV vcom][INFO] [43538: ThreadPool]Initialize:96: Thread-Pool vComPDef, Thread-Pool ID: 0, number of worker threads: 1, maximum tasks: 1024, BswThreadConfiguration: vComDefault
+[1755444913046639][MYSV vcom][INFO] [43538: ThreadPool]Initialize:96: Thread-Pool vComCont, Thread-Pool ID: 0, number of worker threads: 1, maximum tasks: 2048, BswThreadConfiguration: vComContinuation
+[1755444913047272][MYSV vcso][INFO] [43538: SomeIpBindingCore]Start:113: Starting SOME/IP binding.
+[1755444913048164][MYSV vcso][INFO] [43538: IpcConnectionWrapper]OnConnectCompletion:548: Connection to SOME/IP daemon established.
+[1755444913048294][MYSV vcso][INFO] [43538: SomeIpBindingCore]Start:156: Connection to SOME/IP Daemon has been established.
+[1755444913048472][MYSV MYSV][INFO] MyServer is running...
+[1755444913049013][MYSV vcom][INFO] [43538: /astemo/demo/HelloWorld]Skeleton:587: Skeleton created for Service 'HelloWorld' with method executor queue size '0'.
+[1755444913049125][MYSV MYSS][INFO] [Service] Offer HelloWorld Service.
+[1755444913049170][MYSV vcom][INFO] [43538: /astemo/demo/HelloWorld]OfferService:635: Offering the service with instance ID(s): SomeIp:1667:1:1404
+[1755444915048670][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444915048897][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444915049021][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444915049070][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444917048683][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444917048819][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444917050357][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444917050413][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444919048672][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444919048799][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444919048942][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444919048994][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444921048697][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444921048806][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444921048945][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444921048997][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444923048702][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444923048869][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444923048987][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444923049039][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444925048677][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444925048794][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444925048948][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444925049005][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444927048678][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444927048797][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444927048942][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444927048999][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444929048683][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444929048822][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444929048999][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444929049050][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444931048662][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444931048772][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444931048917][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444931048972][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444933048672][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444933048791][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444933048933][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444933049009][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444935048668][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444935048785][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444935048958][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444935049008][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444937048673][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444937048790][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444937048928][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444937049003][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444939048674][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444939048795][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444939048956][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444939049017][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444941048701][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444941048819][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444941048974][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444941049031][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444943048726][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444943048896][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444943049026][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444943049066][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444945048678][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444945048803][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444945048969][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444945049018][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444947048700][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444947048815][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444947048965][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444947049014][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444949048701][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444949048815][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444949049010][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444949049059][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444951048671][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444951048787][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444951048934][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444951048992][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444953048707][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444953048829][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444953048983][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444953049035][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444955048672][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444955048800][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444955048965][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444955049012][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444957048710][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444957048881][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444957049003][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444957049053][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444959048686][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444959048807][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444959048962][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444959049013][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444961048731][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444961048884][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444961049008][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444961049057][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444963048685][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444963048817][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444963048968][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444963049016][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444965048675][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444965048800][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444965048956][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444965049006][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444967048686][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444967048820][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444967048984][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444967049038][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444969048683][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444969048814][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444969048981][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444969049038][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444971048697][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444971048816][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444971048980][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444971049034][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444973048729][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444973048878][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444973049003][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444973049052][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444975048717][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444975048875][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444975049004][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444975049065][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444977048694][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444977048809][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444977048956][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444977049005][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444979048698][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444979048863][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444979049012][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444979049064][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444981048744][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444981048886][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444981049007][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444981049056][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444983048729][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444983048880][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444983049015][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444983049065][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444985048678][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444985048801][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444985048966][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444985049018][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444987048677][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444987048792][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444987048939][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444987048995][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444989048679][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444989048807][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444989048967][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444989049026][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444991048686][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444991048807][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444991048952][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444991049005][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444993048686][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444993048815][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444993048968][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444993049024][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444995048680][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444995048801][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444995048959][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444995049014][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444997048687][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444997048809][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444997048944][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444997049002][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755444999048671][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755444999048790][MYSV MYSV][INFO] Send an event of Hello World!
+[1755444999048934][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755444999048995][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445001048741][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445001048886][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445001049031][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445001049080][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445003048697][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445003048812][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445003048961][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445003049011][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445005048739][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445005048886][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445005049030][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445005049083][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445007048673][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445007048794][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445007048939][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445007048998][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445009048771][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445009048945][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445009049069][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445009049119][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445011048730][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445011048887][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445011049032][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445011049082][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445013048716][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445013048866][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445013048983][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445013049036][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445015048695][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445015048811][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445015048990][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445015049045][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445017048681][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445017048803][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445017048943][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445017048997][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445019048695][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445019048814][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445019048975][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445019049027][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445021048697][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445021048818][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445021048999][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445021049053][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445023048699][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445023048820][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445023048976][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445023049031][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445025048702][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445025048825][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445025048986][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445025049038][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445027048698][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445027048818][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445027048965][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445027049034][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===
+[1755445029048740][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_start_send ===
+[1755445029048945][MYSV MYSV][INFO] Send an event of Hello World!
+[1755445029049063][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_rclcpp_publish ===
+[1755445029049115][MYSV MYSV][INFO] [Tracepoint] === AUTOSAR_callback_end_send ===

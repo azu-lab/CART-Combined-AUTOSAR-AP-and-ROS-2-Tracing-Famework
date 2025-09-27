@@ -1,0 +1,9 @@
+output/*
+trace_output/*
+tracepoint_code/*
+ROS2_trace_data/ust/uid/1000/64-bit/*
+C++/*.so
+C++/write_lttng
+__pycache__/
+**/__pycache__/
+*.pyc
