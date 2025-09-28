@@ -18,7 +18,7 @@ CART consists of 4 functionalities
 
 
 ### Figure 1: Architecture of CART
-[CART_github.pdf](https://github.com/user-attachments/files/22579944/CART_github.pdf)
+<img width="1021" height="592" alt="CART" src="./CART.png" />
 
 
 This page publishes the section outlined in red in Figure 1. We are publishing sample trace data for both AA and ROS 2 together.
