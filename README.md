@@ -129,7 +129,9 @@ python3 Python/make_ROS2_tracepoints.py input/ROS2_trace_data.txt tracepoint_cod
 
 
 ## Publications & Presentations
-
+- Ryudai Iwakami, Hiroyuki Hanyu, Tasuku Ishigooka, and Takuya Azumi, “CART: Combined AUTOSARAP and ROS 2 TracingFramework.”  In
+Proceedings of International Workshop on Rapid System Prototyping (RSP).
+ACM/IEEE, Taipei, Taiwan, 2025.
 
 
 ## License
